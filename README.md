@@ -2,6 +2,10 @@
 
 Para este projeto, a proposta é remodelar a página de blog da empresa datapush para acompanhar o remodelamento da página Home da empresa.
 
+<div class="demo-gif" align="center">
+  <img height="200" scr="">
+</div>
+
 ##
 
 <p align="center">Novo modelo (objetivo):
