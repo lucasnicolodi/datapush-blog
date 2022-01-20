@@ -3,7 +3,9 @@
 Para este projeto, a proposta é remodelar a página de blog da empresa datapush para acompanhar o remodelamento da página Home da empresa.
 
 <div class="demo-gif" align="center">
-  <img height="200" scr="">
+  
+  <img height="200" scr="https://user-images.githubusercontent.com/95381800/150437809-a174169a-f77f-48bf-ae54-bcd68c2365c8.gif">
+
 </div>
 
 ##
