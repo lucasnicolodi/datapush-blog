@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #444444;
+  font-family: "Open Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f49811;
+}
+
+::-webkit-scrollbar-track {
+  background: #418ccb;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+html {
+  background: url("https://www.datapush.com.br/src/imagens/Datapush/Capa-facebook.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 0.2rem;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.8);
+}
+
+body {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.w1140 {
+  max-width: 1140px;
+}
+
+header {
+  top: 0;
+  right: 0;
+  left: 0;
+  background: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #e6f2fb;
+  box-shadow: 0px 2px 15px rgb(18 66 101 / 8%);
+}
+
+header > div {
+  padding: 0 14px;
+}
+
+.header-wrapper {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 0;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+header .logo span {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo--azul {
+  color: #418ccb;
+  display: inline-block;
+}
+
+.logo--amarelo {
+  color: #f49811;
+  display: inline-block;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+}
+
+header nav li {
+  font-size: 14px;
+  padding: 14px 0 14px 28px;
+}
+
+main {
+  margin: auto;
+  padding-top: 10em;
+}
+
+.blog {
+  background: white;
+  width: 100%;
+  margin-top: 6.5em;
+  padding: 80px;
+}
+
+.logo-slogan {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 0px;
+}
+
+.logo-slogan .logo {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-slogan h2 {
+  color: #020203;
+  font-size: 22px;
+  margin: 10px 0 0 0;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  display: block;
+}
+
+/* h2 */
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #124265;
+  font-family: "Raleway", sans-serif;
+}
+
+.grid {
+  display: grid;
+  height: 960px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-gap: 1.5em;
+}
+
+.grid :first-child {
+  grid-column: 1 / -1;
+  grid-template-rows: auto;
+}
+
+.grid :first-child img {
+  position: absolute;
+  /* height: 100%;
+  width: 50%; */
+  object-fit: cover;
+}
+
+.grid-item {
+  border: 1px solid red;
+  display: flex;
+}
+
+.contato {
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  margin-top: 3em;
+  background: #f8fbfe;
+}
+
+.formas-contato-e-mapa {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
