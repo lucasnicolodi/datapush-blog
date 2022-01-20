@@ -3,16 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Blog | Data Push</title>
+    <title>Blog | datapush</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Cabeçalho -->
-    <header class="header">
+    <header class="header fixed">
       <div class="header-wrapper w1140">
-        <div class="logo">
-          <span class="logo logo--azul">data</span>
-          <span class="logo logo--amarelo">push</span>
-        </div>
+        <h1>
+          <a class="logo" href="https://datapush.com.br/">
+            <span class="logo logo--azul">data</span>
+            <span class="logo logo--amarelo">push</span>
+          </a>
+        </h1>
         <nav>
           <li><a href="https://datapush.com.br/">Home</a></li>
           <li><a href="#">Serviços</a></li>
@@ -24,108 +43,156 @@
 
     <!-- Corpo da página -->
     <main class="w1140">
-      <h1 class="titulo-corpo">Blog</h1>
-      <section class="grid">
-        <div>
-          <img src=".\img\image-equilibrium.jpg" alt="" />
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            dolorum est, molestias
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-            minus impedit maxime, quae soluta quis cumque perferendis! Doloribus
-            quaerat, placeat iste facere, aspernatur ex cum veritatis
-            laudantium.
-          </p>
+      <div class="row align-center">
+        <div class="logo-slogan">
+          <h1>
+            <span class="logo logo--azul">data</span>
+            <span class="logo logo--amarelo">push</span>
+          </h1>
+          <h2>Soluções Inteligentes</h2>
         </div>
-        <div>
-          <img src=".\img\image-equilibrium.jpg" alt="" />
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            dolorum est, molestias
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-            minus impedit maxime, quae soluta quis cumque perferendis! Doloribus
-            quaerat, placeat iste facere, aspernatur ex cum veritatis
-            laudantium.
-          </p>
-        </div>
-        <div>
-          <img src=".\img\image-equilibrium.jpg" alt="" />
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            dolorum est, molestias
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-            minus impedit maxime, quae soluta quis cumque perferendis! Doloribus
-            quaerat, placeat iste facere, aspernatur ex cum veritatis
-            laudantium.
-          </p>
-        </div>
-        <div>
-          <img src=".\img\image-equilibrium.jpg" alt="" />
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            dolorum est, molestias
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-            minus impedit maxime, quae soluta quis cumque perferendis! Doloribus
-            quaerat, placeat iste facere, aspernatur ex cum veritatis
-            laudantium.
-          </p>
-        </div>
-        <div>
-          <img src=".\img\image-equilibrium.jpg" alt="" />
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            dolorum est, molestias
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-            minus impedit maxime, quae soluta quis cumque perferendis! Doloribus
-            quaerat, placeat iste facere, aspernatur ex cum veritatis
-            laudantium.
-          </p>
-        </div>
-      </section>
-      <section class="contato w1140">
-        <h2>Contato</h2>
-        <span class="contato--descricao">
-          Entre em contato para agendar uma visita presencial ou uma conversa
-          remota conosco.
-        </span>
-        <div class="formas-contato">
-          <div class="formas-contato--item">
-            <ion-icon name="location-outline"></ion-icon>
-            <h3>Localização:</h3>
-            <p>Rua Espanha, 184, Das Nações, Indaial - SC</p>
-          </div>
-          <div class="formas-contato--item">
-            <ion-icon name="mail-outline"></ion-icon>
-            <h3>Email:</h3>
-            <p>contato@datapush.com.br</p>
-          </div>
-          <div class="formas-contato--item">
-            <ion-icon name="logo-whatsapp"></ion-icon>
-            <h3>Telefone:</h3>
-            <p>+55 47 9 9911 1252</p>
-          </div>
-        </div>
-        <div class="mapa">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.43573930975!2d-49.24252328436425!3d-26.889662898721017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df028131a334c1%3A0xfc2b99eed37437f!2sR.%20Espanha%2C%20184%20-%20Na%C3%A7%C3%B5es%2C%20Indaial%20-%20SC%2C%2089082-024!5e0!3m2!1spt-BR!2sbr!4v1642296421576!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </section>
+        <section class="blog row align-center">
+          <h1 class="titulo-corpo section-title">Blog</h1>
+          <section class="grid">
+            <div class="grid-item">
+              <img
+                src=".\img\image-equilibrium.jpg"
+                alt=""
+                height="180"
+                width="180"
+              />
+              <div class="grid-item-text">
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                  dolorum est, molestias
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit minus impedit maxime, quae soluta quis cumque
+                  perferendis! Doloribus quaerat, placeat iste facere,
+                  aspernatur ex cum veritatis laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src=".\img\image-equilibrium.jpg"
+                alt=""
+                height="180"
+                width="180"
+              />
+              <div class="grid-item-text">
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                  dolorum est, molestias
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit minus impedit maxime, quae soluta quis cumque
+                  perferendis! Doloribus quaerat, placeat iste facere,
+                  aspernatur ex cum veritatis laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src=".\img\image-equilibrium.jpg"
+                alt=""
+                height="180"
+                width="180"
+              />
+              <div class="grid-item-text">
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                  dolorum est, molestias
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit minus impedit maxime, quae soluta quis cumque
+                  perferendis! Doloribus quaerat, placeat iste facere,
+                  aspernatur ex cum veritatis laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src=".\img\image-equilibrium.jpg"
+                alt=""
+                height="180"
+                width="180"
+              />
+              <div class="grid-item-text">
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                  dolorum est, molestias
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit minus impedit maxime, quae soluta quis cumque
+                  perferendis! Doloribus quaerat, placeat iste facere,
+                  aspernatur ex cum veritatis laudantium.
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src=".\img\image-equilibrium.jpg"
+                alt=""
+                height="180"
+                width="180"
+              />
+              <div class="grid-item-text">
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                  dolorum est, molestias
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit minus impedit maxime, quae soluta quis cumque
+                  perferendis! Doloribus quaerat, placeat iste facere,
+                  aspernatur ex cum veritatis laudantium.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="contato w1140 row align-items">
+            <h2 class="section-title">Contato</h2>
+            <span class="contato--descricao">
+              Entre em contato para agendar uma visita presencial ou uma
+              conversa remota conosco.
+            </span>
+            <div class="formas-contato-e-mapa">
+              <div class="formas-contato">
+                <div class="formas-contato--item">
+                  <ion-icon name="location-outline"></ion-icon>
+                  <h3>Localização:</h3>
+                  <p>Rua Espanha, 184, Das Nações, Indaial - SC</p>
+                </div>
+                <div class="formas-contato--item">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <h3>Email:</h3>
+                  <p>contato@datapush.com.br</p>
+                </div>
+                <div class="formas-contato--item">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <h3>Telefone:</h3>
+                  <p>+55 47 9 9911 1252</p>
+                </div>
+              </div>
+              <div class="mapa">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.43573930975!2d-49.24252328436425!3d-26.889662898721017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df028131a334c1%3A0xfc2b99eed37437f!2sR.%20Espanha%2C%20184%20-%20Na%C3%A7%C3%B5es%2C%20Indaial%20-%20SC%2C%2089082-024!5e0!3m2!1spt-BR!2sbr!4v1642296421576!5m2!1spt-BR!2sbr"
+                  width="800"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
     </main>
 
     <!-- Rodapé -->
